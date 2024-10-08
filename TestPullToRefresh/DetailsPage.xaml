@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.PullToRefresh;assembly=Syncfusion.Maui.PullToRefresh"
+             x:Class="TestPullToRefresh.DetailsPage">
+    <Grid>
+        <syncfusion:SfPullToRefresh x:Name="pullToRefresh"
+                                    PullingThreshold="120"
+                                    RefreshViewHeight="30"
+                                    RefreshViewThreshold="30"
+                                    RefreshViewWidth="30"
+                                    IsRefreshing="False"
+                                    TransitionMode="Push">
+            <syncfusion:SfPullToRefresh.PullableContent>
+                <StackLayout HorizontalOptions="Center"
+                             VerticalOptions="Start">
+                    <Label Text="Pull to refresh" />
+                </StackLayout>
+            </syncfusion:SfPullToRefresh.PullableContent>
+        </syncfusion:SfPullToRefresh>
+    </Grid>
+</ContentPage>

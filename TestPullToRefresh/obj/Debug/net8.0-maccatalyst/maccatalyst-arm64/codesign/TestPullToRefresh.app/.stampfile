@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/mca/Projects/TestPullToRefresh/TestPullToRefresh/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/mca/Projects/TestPullToRefresh/TestPullToRefresh/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/TestPullToRefresh.app

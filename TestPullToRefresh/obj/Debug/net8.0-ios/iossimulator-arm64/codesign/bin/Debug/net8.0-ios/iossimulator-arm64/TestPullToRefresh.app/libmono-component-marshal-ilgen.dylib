@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/mca/Projects/TestPullToRefresh/TestPullToRefresh/bin/Debug/net8.0-ios/iossimulator-arm64/TestPullToRefresh.app/libmono-component-marshal-ilgen.dylib
